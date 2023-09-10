@@ -10,12 +10,13 @@ import Contact from './Contact';
 import Footer from './Footer';
 
 export {
-  Hero,
   Navbar,
+  Hero,
   About,
   Categorys,
   Experience,
   Works,
+  Prices,
   Feedbacks,
   Contact,
   Footer
