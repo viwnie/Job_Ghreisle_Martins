@@ -1,7 +1,7 @@
 const Prices = () => {
 	return (
-		<div className="flex w-full bg-gray-200 text-black p-10 gap-10 justify-center max-md:flex-col max-md:gap-10 max-md:items-center">
-			<div className="bg-white w-[320px] h-[370px] rounded-[20px] ">
+		<div className="flex w-full bg-white text-black p-10 gap-10 justify-center max-md:flex-col max-md:gap-10 max-md:items-center">
+			<div className="bg-white w-[320px] h-[370px] rounded-[20px] shadow-2xl">
 				<div className="w-full ml-8 mt-10">
 					<h2 className="text-[20px] text-gray-600 font-extrabold">Personal</h2>
 					<h2 className="text-bold text-[48px]">
@@ -30,7 +30,7 @@ const Prices = () => {
           </button>
 				</div>
 			</div>
-			<div className="bg-white w-[320px] h-[370px] rounded-[20px]">
+			<div className="bg-white w-[320px] h-[370px] rounded-[20px] shadow-2xl">
 				<div className="w-full ml-8 mt-10">
 					<h2 className="text-[20px] text-gray-600 font-extrabold">Professional</h2>
 					<h2 className="text-bold text-[48px]">
@@ -59,7 +59,7 @@ const Prices = () => {
           </button>
 				</div>
 			</div>
-			<div className="bg-white w-[320px] h-[370px] rounded-[20px]">
+			<div className="bg-white w-[320px] h-[370px] rounded-[20px] shadow-2xl">
 				<div className="w-full ml-8 mt-10">
 					<h2 className="text-[20px] text-gray-600 font-extrabold">Business</h2>
 					<h2 className="text-bold text-[48px]">
