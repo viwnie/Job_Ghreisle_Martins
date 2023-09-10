@@ -1,22 +1,41 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import "./globals.css";
+import type { Metadata } from "next";
+import {
+	Playfair_Display as Playfair,
+	Noto_Sans_Carian as NotoS,
+} from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const playfair = Playfair({
+	subsets: ["latin"],
+	weight: "400",
+	variable: "--font-playfair",
+});
+const notoS = NotoS({
+	subsets: ["latin"],
+	weight: "400",
+	variable: "--font-notoS",
+});
 
 export const metadata: Metadata = {
-  title: 'Ghreisle Martins Cleaning',
-  description: 'We are the best company specialized in cleaning homes, businesses, and other places.',
-}
+	title: "Ghreisle Martins Cleaning",
+	description:
+		"We are the best company specialized in cleaning homes, businesses, and other places.",
+};
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
-  )
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+	return (
+		<html lang="en">
+			<head>
+				<link
+					href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+					rel="stylesheet"
+				/>
+			</head>
+			<body
+				className={`${playfair.variable} ${notoS.variable} font-sans text-gray-100`}
+			>
+				{children}
+			</body>
+		</html>
+	);
 }
