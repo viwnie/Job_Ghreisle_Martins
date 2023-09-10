@@ -1,8 +1,8 @@
 const Footer = () => {
 	return (
-		<footer className="flex w-full bg-black text-white p-10 justify-between max-sm:flex-col max-sm:gap-10 max-sm:items-center ">
-			<div className="flex flex-col gap-2 ml-20 max-sm:ml-0 max-sm:justify-center text-[16px]">
-				<div className="flex">
+		<footer className="flex w-full bg-blue-500 text-white p-10 justify-between max-sm:flex-col max-sm:gap-10 max-sm:items-center ">
+			<div className="flex flex-col gap-2 ml-20  text-[20px] max-sm:ml-0 max-sm:justify-center bg-red-500">
+				<div className="flex bg-green-500">
 					<div className="">
 						<span
 							className="material-symbols-outlined text-white"

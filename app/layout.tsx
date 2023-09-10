@@ -32,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 				/>
 			</head>
 			<body
-				className={`${playfair.variable} ${notoS.variable} font-sans text-gray-100`}
+				className={`${notoS.variable} ${playfair.variable} font-sans text-gray-100`}
 			>
 				{children}
 			</body>
