@@ -7,9 +7,11 @@ import {
 
 const playfair = Playfair({
 	subsets: ["latin"],
-	weight: "400",
+	style:["italic","normal"],
+	weight: ["400"],
 	variable: "--font-playfair",
 });
+
 const notoS = NotoS({
 	subsets: ["latin"],
 	weight: "400",
@@ -31,9 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 					rel="stylesheet"
 				/>
 			</head>
-			<body
-				className={`${notoS.variable} ${playfair.variable} font-sans text-gray-900`}
-			>
+			<body className={`${notoS.variable} ${playfair.variable} font-sans text-gray-900`}>
 				{children}
 			</body>
 		</html>

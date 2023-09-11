@@ -2,21 +2,17 @@ import { Navbar, Hero, About, Categorys, Experience, Works, Prices, Feedbacks, C
 
 export default function Home() {
   return (
-<div >
-      
-        <Navbar />
-        <Hero />
-      
-      <About />
-      <Categorys />
-      <Experience />
-      <Works />
-      <Prices />
-      <Feedbacks />
-    
-        <Contact />
-        <Footer />
-
-    </div>
+  <div >
+    <Navbar />
+    <Hero />
+    <About />
+    <Categorys />
+    <Experience />
+    <Works />
+    <Prices />
+    <Feedbacks />
+    <Contact />
+    <Footer />
+  </div>
   )
 }

@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import { bgHero } from "@/public"
 
 const config: Config = {
   content: [
@@ -9,8 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-				sans: "var(--font-notoS)",
-				alt: "var(--playfair)",
+				sans: ['var(--font-notoS)'],
+				alt: ['var(--font-playfair)'],
 			},
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
