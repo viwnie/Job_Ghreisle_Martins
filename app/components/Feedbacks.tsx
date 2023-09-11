@@ -2,8 +2,8 @@ const Feedbacks = () => {
 	return (
 		<div className="flex items-center flex-col pt-20 pb-10">
       <h1 className="text-5xl font-bold">Reviews</h1>
-			<div className="flex w-full bg-white text-black p-10 gap-10 justify-center max-lg:flex-col max-lg:gap-10 max-lg:items-center pt-20">
-				<div className="bg-white w-[320px] h-[300px] rounded-[20px] shadow-2xl p-6">
+			<div className="flex w-full bg-white text-black p-10 gap-10 justify-center max-lg:flex-col max-lg:gap-10 max-lg:items-center pt-20 ">
+				<div className="bg-white w-[320px] h-[300px] rounded-[20px] shadow-2xl p-6 hover:scale-110 transform transition-transform duration-300 ease-in-out">
 					<div className="flex gap-2">
 						<img
 							className="w-10 h-10 rounded-[50px]"
@@ -24,7 +24,7 @@ const Feedbacks = () => {
 						</div>
 					</div>
 				</div>
-				<div className="bg-white w-[320px] h-[300px] rounded-[20px] shadow-2xl p-6">
+				<div className="bg-white w-[320px] h-[300px] rounded-[20px] shadow-2xl p-6 hover:scale-110 transform transition-transform duration-300 ease-in-out">
 					<div className="flex gap-2">
 						<div className="flex gap-2">
 							<img
@@ -47,7 +47,7 @@ const Feedbacks = () => {
 						</div>
 					</div>
 				</div>
-				<div className="bg-white w-[320px] h-[300px] rounded-[20px] shadow-2xl p-6">
+				<div className="bg-white w-[320px] h-[300px] rounded-[20px] shadow-2xl p-6 hover:scale-110 transform transition-transform duration-300 ease-in-out">
 					<div className="flex gap-2">
 						<div className="flex gap-2">
 							<img
