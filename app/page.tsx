@@ -9,7 +9,7 @@ export default function Home() {
     <Categorys />
     <Experience />
     <Works />
-    <Prices />
+    {/* <Prices /> */}
     <Feedbacks />
     <Contact />
     <Footer />
